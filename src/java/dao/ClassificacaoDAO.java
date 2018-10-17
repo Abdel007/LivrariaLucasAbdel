@@ -3,12 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package modelo;
+package dao;
+
+import modelo.Autor;
+
 
 /**
  *
  * @author dappo
  */
-public class Classsificacao {
+public class ClassificacaoDAO extends GenericDAO<Autor, Long>{
+    
+    public ClassificacaoDAO(){
+        super(Autor.class);
+    }
     
 }
